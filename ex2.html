@@ -4,16 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-
+    <link rel="shortcut icon" href="img/js-favicon.ico" type="image/x-icon">
     <title>Exercício 2</title>
 </head>
 <body>
    <h1>Aperte o botão e veja o que acontece</h1>
-   <button onclick="inicio()">Clique aqui</button>
-   <script>
-    function inicio(){
-        window.alert('Você clicou no botão')
-    }
-   </script>
+ 
+   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+   <button onclick="swal('Você clicou no botão!');">Clique aqui</button>
 </body>
 </html>
