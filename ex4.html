@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercício 4</title>
+</head>
+<body>
+    <br><br>
+    <img src="img/4248219.png" alt="" width="180px"> <br><br>
+    <button onclick="inicio()">Clique aqui</button><br><br>
+    <section id="resultado">
+        <p>O resultado irá aparecer aqui!</p>
+    </section>
+
+    <script>
+        function inicio(){
+            let nome = window.prompt('Informe o seu nome completo')
+            let res =window.document.getElementById
+            ('resultado')
+            res.innerHTML=`<p> Oláaaa, ${nome}! Seja bem-vindo(a)!`
+        }
+    </script>
+</body>
+</html>
