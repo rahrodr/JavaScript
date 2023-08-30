@@ -1,5 +1,6 @@
 body{
-    background-image: linear-gradient(to left, rgb(118, 193, 255), rgb(158, 203, 255));
+    background-image: url(img/linear.jpg);
+    background-size: cover;
     text-align: center;
 
 }
