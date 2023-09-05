@@ -34,7 +34,7 @@ button{
 
 section{
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 250px;
@@ -42,5 +42,15 @@ section{
     background-color:rgb(54, 161, 255);
     color: #000000;
     border-radius: 10px;
+
+}
+
+button.ex4{
+    margin: 20px;
+
+}
+
+img.js{
+    margin: 10px;
 
 }
