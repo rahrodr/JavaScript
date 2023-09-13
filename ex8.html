@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercício 8</title>
+    <link rel="shortcut icon" href="img/js-favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Vários cálculos em JS</h1>
+    <button onclick="calcular()">Clique para calcular</button>
+    <hr>
+    <section id="result"></section>
+
+    <script>
+        function calcular(){
+            let num =Number(window.prompt('Digite um número inteiro.'))
+            let res =document.querySelector('section#result')
+            res.innerHTML = `<p>O número analisado aqui será o <strong>${num}</strong>.<hr>` 
+            res.innerHTML += `<p>O valor absoluto é ${Math.abs(num)}.</p><hr>`
+            res.innerHTML += `<p>A sua parte inteira é ${Math.trunc(num)}.</p><hr>`
+            res.innerHTML += `<p>O valor inteiro mais próximo é ${Math.round(num)}.</p>`
+            res.innerHTML += `<p>A raíz quadrada é ${Math.sqrt(num)}.</p>`
+            res.innerHTML += `<p>O valor de ${num}<sup>2</sup> é ${Math.pow(num, 2)}.</p>`
+
+        }
+    </script>
+</body>
+</html>

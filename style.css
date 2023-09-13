@@ -59,6 +59,16 @@ img.js{
     color: #4d4d4d;
 }
 
-div.desconto{
-    margin-top: 10%;
+/*calculadora de desconto*/
+
+#resultado{
+    margin-top: 10px;
+}
+
+.calcdesconto{
+    margin-top: 100px;
+}
+
+#result{
+    padding-bottom: 200px;
 }

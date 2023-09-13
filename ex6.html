@@ -14,9 +14,9 @@
     <button onclick="multi()">Multiplicação</button>
     <button onclick="div()">Divisão</button>
 
-    <section id="resultado">
-        <p>O resultado irá aparecer aqui!</p>
-    </section>
+    <p id="resultado">
+        <section>O resultado irá aparecer aqui!</p>
+        </p>
 
     <script>
         function soma(){
@@ -24,7 +24,7 @@
             let n2 = Number(window.prompt('Informe o segundo valor'))
             let n3=n1+n2
             let res=window.document.getElementById('resultado')
-res.innerHTML=`<p> ${n3}`
+res.innerHTML=`<section> ${n3}`
         }
 
         function subt(){
@@ -32,7 +32,7 @@ res.innerHTML=`<p> ${n3}`
             let n2 = Number(window.prompt('Informe o segundo valor'))
             let n3=n1-n2
             let res=window.document.getElementById('resultado')
-res.innerHTML=`<p> ${n3}`
+res.innerHTML=`<section> ${n3}`
         }
 
         function multi(){
@@ -40,7 +40,7 @@ res.innerHTML=`<p> ${n3}`
             let n2 = Number(window.prompt('Informe o segundo valor'))
             let n3=n1*n2
             let res=window.document.getElementById('resultado')
-res.innerHTML=`<p> ${n3}`
+res.innerHTML=`<section> ${n3}`
         }
 
         function div(){
@@ -48,7 +48,7 @@ res.innerHTML=`<p> ${n3}`
             let n2 = Number(window.prompt('Informe o segundo valor'))
             let n3=n1/n2
             let res=window.document.getElementById('resultado')
-res.innerHTML=`<p> ${n3}`
+res.innerHTML=`<section> ${n3}`
         }
 
     </script>

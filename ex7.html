@@ -9,21 +9,20 @@
 </head>
 <body>
     
-    <div class="desconto">
-        <h1>Calculadora de desconto</h1>
-        <button onclick="iniciar" >Clique para começar</button>
-        <p class="titulo">Nome do produto</p>
-        <p class="titulo">Preço:</p>
-        <p class="titulo" id="preco">Preço do produto</p>
-        <p class="titulo">Desconto:</p>
-        <p class="titulo" id="desconto">Desconto</p>
-        <p class="titulo">Valor final:</p>
-        <p class="titulo" id="resultado">Valor final</p>
-    </div>
-
+        <div class="calcdesconto">
+            <h1>Calculadora de desconto</h1>
+            <button onclick="inicio()">Clique para começar</button>
+            <section id="resultado"> 
+            </section>
+        </div>
     <script>
-        function iniciar(){
-            
+        function inicio(){
+            let nome = window.prompt('Informe o nome do produto')
+            let preco = window.prompt('Informe o preço do produto')
+            let desconto = window.prompt('Informe a porcentagem do desconto')
+            let valorf = preco-((preco*desconto)/100)
+            let res = document.getElementById('resultado')
+            res.innerHTML=`<p> O preço de ${nome} é R$${preco}. Com o desconto de ${desconto}% ficará R$${valorf}.`
         }
     </script>
 </body>
