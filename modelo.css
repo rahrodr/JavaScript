@@ -35,3 +35,21 @@ section{
     margin: auto;
     box-shadow: 3px 3px 10px #134eff;
 }
+
+/* tabuada */
+
+.tabuada{
+    background-color: #99c5ff;
+    color: rgb(0, 1, 79);
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.tabuadasbt{
+    background-color: rgb(66, 104, 255);
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
